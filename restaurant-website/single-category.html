@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chinese restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <header>
+        <nav id="navbar-nav" class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a href="resturant.html" class="float-left d-none d-xl-block d-lg-block">
+                <div id="logo-img"></div>
+              </a>
+    
+              <div class="navbar-brand">
+                <a href="resturant.html"><h1>David Chu's China Bistro</h1></a>
+                <p>
+                  <img src="star-k-logo.png" alt="Kosher certification">
+                  <span>Kosher Certified</span>
+                </p>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav navbar-right" id="nav-list">
+                <li class="nav-item d-md-none">
+                  <a class="nav-link" aria-current="page" href="resturant.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  </svg>Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="menu-categories.html"><svg viewBox="0 0 1792 1792" class="bi bi-info-circle-fill" xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="30" height="30"><path d="M990 463l276-116q25-18 43.5-8t18.5 41v1106q0 21-14.5 35.5T1278 1536h-200q-21 0-35.5-14.5T1028 1486v-397q-4-1-11-5t-24-17.5-30-29-24-42-11-56.5V580q0-31 18.5-65t43.5-52zM678 336q22 0 34.5 12.5T727 373l1 13v450q0 28-10.5 59.5t-25 56-29 45T638 1028l-10 11v447q0 21-14.5 35.5T578 1536H378q-21 0-35.5-14.5T328 1486v-447q-4-4-11-11.5T293 997t-30-46-24-55-11-60V386q0-2 .5-5.5t4-12 8.5-15 14.5-12T278 336q20 0 32.5 12.5T325 373l3 13v350h100V380.5l2.5-12 7-15 15-12L478 336q23 0 35.5 12.5T527 373l1 13v350h100V386q0-2 .5-5.5t3-12 7-15 15-12T678 336z"></path></svg><br class="d-none d-md-block d-xl-block d-lg-block">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                  </svg><br class="d-none d-md-block d-xl-block d-lg-block">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                    <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                  </svg><br class="d-none d-md-block d-xl-block d-lg-block">Awards</a>
+                </li>
+                <li id="phone" class="d-none d-md-block d-xl-block d-lg-block">
+                  <a href="tel:410-602-5008">
+                    <span>410-602-5008</span></a><div>* We Deliver</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div id="call-btn" class="d-md-none">
+        <a class="btn" href="tel:410-602-5008">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>
+        410-602-5008
+        </a>
+      </div>
+      <div id="xs-deliver" class="text-center d-md-none">* We Deliver</div>
+
+      <div id="main-content" class="container-fluid">
+        <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+        <div class="text-center">lunch is not ready until 1pm</div>
+        <section class="row">
+          <div class="menu-item-tile col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="menu-item-photo">
+                  <div>D01</div>
+                  <img src="B.jpg" alt="item" class="img-responsive" width="250" height="150">
+                </div>
+                <div class="menu-item-price">$10.50 <span>(pint)</span>$14.95 <span>(quart)</span></div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                <h3 class="menu-item-title">Veal with vegetables</h3>
+                <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sunt quis? Animi, nihil! Officiis accusantium, mollitia doloremque assumenda iusto alias?</p>
+              </div>
+            </div>
+            <hr class="d-md-none">
+          </div>
+
+          <div class="menu-item-tile col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="menu-item-photo">
+                  <div>D02</div>
+                  <img src="B.jpg" alt="item" class="img-responsive" width="250" height="150">
+                </div>
+                <div class="menu-item-price">$10.50 <span>(pint)</span>$14.95 <span>(quart)</span></div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                <h3 class="menu-item-title">Veal with vegetables</h3>
+                <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sunt quis? Animi, nihil! Officiis accusantium, mollitia doloremque assumenda iusto alias?</p>
+              </div>
+            </div>
+            <hr class="d-md-none">
+          </div>
+
+          <div class="menu-item-tile col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="menu-item-photo">
+                  <div>D03</div>
+                  <img src="B.jpg" alt="item" class="img-responsive" width="250" height="150">
+                </div>
+                <div class="menu-item-price">$10.50 <span>(pint)</span>$14.95 <span>(quart)</span></div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                <h3 class="menu-item-title">Veal with vegetables</h3>
+                <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sunt quis? Animi, nihil! Officiis accusantium, mollitia doloremque assumenda iusto alias?</p>
+              </div>
+            </div>
+            <hr class="d-md-none">
+          </div>
+
+          <div class="menu-item-tile col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="menu-item-photo">
+                  <div>D04</div>
+                  <img src="B.jpg" alt="item" class="img-responsive" width="250" height="150">
+                </div>
+                <div class="menu-item-price">$10.50 <span>(pint)</span>$14.95 <span>(quart)</span></div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                <h3 class="menu-item-title">Veal with vegetables</h3>
+                <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sunt quis? Animi, nihil! Officiis accusantium, mollitia doloremque assumenda iusto alias?</p>
+              </div>
+            </div>
+            <hr class="d-md-none">
+          </div>
+
+          <div class="menu-item-tile col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="menu-item-photo">
+                  <div>D05</div>
+                  <img src="B.jpg" alt="item" class="img-responsive" width="250" height="150">
+                </div>
+                <div class="menu-item-price">$10.50 <span>(pint)</span>$14.95 <span>(quart)</span></div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                <h3 class="menu-item-title">Veal with vegetables</h3>
+                <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sunt quis? Animi, nihil! Officiis accusantium, mollitia doloremque assumenda iusto alias?</p>
+              </div>
+            </div>
+            <hr class="d-md-none">
+          </div>
+
+          <div class="menu-item-tile col-md-6">
+            <div class="row">
+              <div class="col-sm-5">
+                <div class="menu-item-photo">
+                  <div>D06</div>
+                  <img src="B.jpg" alt="item" class="img-responsive" width="250" height="150">
+                </div>
+                <div class="menu-item-price">$10.50 <span>(pint)</span>$14.95 <span>(quart)</span></div>
+              </div>
+              <div class="menu-item-description col-sm-7">
+                <h3 class="menu-item-title">Veal with vegetables</h3>
+                <p class="menu-item-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sunt quis? Animi, nihil! Officiis accusantium, mollitia doloremque assumenda iusto alias?</p>
+              </div>
+            </div>
+            <hr class="d-md-none">
+          </div>
+        </section>
+
+
+      </div>
+
+      <footer class="panel-footer">
+        <div class="container">
+          <div class="row">
+            <section id="hours" class="col-md-4">
+              <span>Hours:</span><br>
+              Sun-Thurs: 11:15am - 10:00pm<br>
+              Fri: 11:15am - 2:30pm<br>
+              Saturday Closed
+              <hr class="d-md-none"> 
+            </section>
+            <section id="address" class="col-md-4">
+              <span>Address:</span><br>
+              7105 Reisterstown Road<br>
+              Baltimore, MD 21215
+              <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+              <hr class="d-md-none">
+            </section>
+            <section id="testimonials" class="col-md-4">
+              <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+              <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+            </section>
+          </div>
+          <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+        </div>
+      </footer>
+      
+
+    
+   
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
